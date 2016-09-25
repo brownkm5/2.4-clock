@@ -1,0 +1,21 @@
+body{
+background-color: rgb(146, 42, 48);
+}
+h1{
+  text-align: center;
+  font-size: 25vmin;
+}
+
+
+  #hours::after, #minutes::after{
+    content: ":";
+    padding-left: 20px;
+  }
+
+.secondbar{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
