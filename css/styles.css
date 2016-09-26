@@ -1,9 +1,7 @@
-body {
-  background-color: #922a30; }
-
 h1 {
   text-align: center;
-  font-size: 25vmin; }
+  font-size: 25vmin;
+  color: white; }
 
 #hours::after, #minutes::after {
   content: ":";
@@ -14,6 +12,9 @@ h1 {
   margin-bottom: 30px;
   border-bottom: 2px solid black;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  transition: width 1s linear;
+  height: 20px;
+  background-color: white; }
 
 /*# sourceMappingURL=styles.css.map */
