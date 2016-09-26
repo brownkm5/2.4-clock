@@ -38,16 +38,12 @@ hoursContainer.textContent = ('0' + hours).slice(-2);
 minutesContainer.textContent = ('0' + minutes).slice(-2);
 secondsContainer.textContent = ('0' + seconds).slice(-2);
 }
-// var h = document.getElementById("hours").textContent = ("0" + hours).slice(-2);
-// var m = document.getElementById("minutes").textContent = ("0" + minutes).slice(-2);
-// var s = document.getElementById("seconds").textContent = ("0" + seconds).slice(-2);
+
 
 var secondbar = (seconds/60)*45;
 document.querySelector('.secondbar').style.width = secondbar.toString() + '%';
 
-// i looked up how to add a radial-gradient but i couldnt get it to work, i think the syntax is wrong
-// var radialValue = 'radial-gradient(' circle' + ',farthest-corner,' + 'previousHex,' + 'newHex ')';
-// body.style.background = radialValue;
+
 }
 window.setInterval(logCurrentTime, 100);
 // var previousHex = ' ';
